@@ -75,11 +75,45 @@ const Result = () => {
             </ul>
           </div>
           <div className="bg-black rounded-lg shadow-md p-6 custom1 mt-4">
-            <p className="text-lg font-semibold mb-3">You will Achieve</p>
-            <p>
-              The concept of BMI was developed by Belgian mathematician Adolphe
-              Quetelet in the 19th century.
-            </p>
+            <p className="text-lg font-semibold mb-3">Benefits</p>
+            <p className="font-semibold">
+            Benefits of the Balanced Meal Plan:
+            </p><br/>
+            <div>
+              <ul className="font-semibold list-disc list-inside">
+              <li title="The meal plan provides a higher calorie intake,
+              promoting a caloric surplus necessary for weight gain.">Caloric Surplus</li><br/>
+              <li title="Meals include good sources of protein,
+               supporting muscle development and repair.">Protein for Muscle Building</li><br/>
+              <li title="Inclusion of healthy fats provides additional energy 
+              and supports overall health.">Healthy Fats for Energy</li><br/>
+              <li title="Whole grains, fruits, and vegetables offer complex carbohydrates, 
+              providing sustained energy throughout the day.">Complex Carbohydrates for Sustained Energy</li><br/>
+              <li title="The plan incorporates a variety of fruits, vegetables, and whole grains,
+               ensuring a rich supply of vitamins, minerals, and fiber.">Micronutrients and Fiber</li><br/>
+              <li title="Nutrient-dense foods contribute essential vitamins and minerals, 
+              supporting overall health and well-being.">Nutrient Density</li><br/>
+              <li title="Each meal includes a mix of carbohydrates, proteins, and fats,
+               promoting a balanced and varied diet.">Balanced Meals</li><br/>
+              <li title="The plan supports gradual weight gain, which is generally
+               considered healthier and more sustainable.">Gradual Weight Gain</li><br/>
+              </ul>
+              <p className="font-semibold">Benefits of Exercise Suggestions:</p><br/>
+              <ul className="font-semibold list-disc list-inside">
+                <li title="Strength training exercises promote muscle development, 
+                contributing to weight gain in the form of lean muscle mass.">Muscle Building</li><br/>
+                <li title="Regular exercise can stimulate appetite, aiding in 
+                the consumption of a higher calorie intake.">Increased Appetite</li><br/>
+                <li title="Building muscle through strength training can boost metabolism,
+                 assisting in the utilization of calories for energy.">Improved Metabolism</li><br/>
+                <li title="Cardiovascular and bodyweight exercises contribute to overall health,
+                 improving cardiovascular fitness, endurance, and flexibility.">Enhanced Overall Health</li><br/>
+                <li title="Establishing a regular exercise routine promotes consistency
+                 and helps individuals stay on track with their health goals.">Consistency and Routine</li><br/>
+                <li title="Consulting with a fitness professional allows for a personalized exercise plan 
+                tailored to individual needs and preferences">Personalized Approach</li><br/>
+              </ul>
+            </div>
           </div>
         </div>
         <div>
@@ -119,15 +153,15 @@ const Result = () => {
                 <li>Scrambled <br/> &nbsp; &nbsp; &nbsp; Eggs (2 eggs)</li>
                 <li>Avocado (1/4) </li>
                 <li>Mixed Berries <br/> &nbsp; &nbsp; &nbsp; (1/2 cup)</li>
-                <li> Greek Yogurt <br/> &nbsp; &nbsp; &nbsp; (1/2 cup)</li>
+                <li> Greek Yogurt <br/> &nbsp; &nbsp; &nbsp; (1/2 cup)</li><br/>
                 <p>Lunch</p>
                 <li>Grilled Chicken <br/> &nbsp; &nbsp; &nbsp; Breast (4 oz)</li>
                 <li>Broccoli (1 cup)</li>
                 <li>Quinoa <br/> &nbsp; &nbsp; (1/2 cupcooked)</li>
-                <li>Cherry <br/> &nbsp; &nbsp; Tomatoes (1cup)</li>
+                <li>Cherry <br/> &nbsp; &nbsp; Tomatoes (1cup)</li><br/>
                 <p>Evening Snack</p>
                 <li> Almonds <br/> &nbsp; &nbsp; &nbsp; (1/4 cup)</li>
-                <li> Apple slices</li>
+                <li> Apple slices</li><br/>
                 <p>Dinner</p>
                 <li>Salmon Fillet <br/> &nbsp; &nbsp; &nbsp;(4 oz)</li>
                 <li>Brown Rice<br/> &nbsp; &nbsp;  (1/2 cupcooked)</li>
@@ -142,15 +176,15 @@ const Result = () => {
                 <li>60</li><br/>
                 <li>30</li><br/>
                 <li>60</li>
-                <br />
+                <br /><br/>
                 <li>180</li><br/>
                 <li>55</li><br/>
                 <li>110</li><br/>
                 <li>30</li>
-                <br />
+                <br /><br/>
                 <li>200 </li><br/>
                 <li>150</li>
-                <br />
+                <br/><br/>
                 <li>180</li><br/>
                 <li>100 </li><br/>
                 <li>10</li>
@@ -166,10 +200,43 @@ const Result = () => {
           </div>
           <div className="bg-black rounded-lg shadow-md p-6 custom1 mt-4 mr-6">
             <p className="text-lg font-semibold mb-3">Benefits</p>
-            <p>
-              Consult a healthcare professional for personalized advice on
-              weight management and lifestyle changes.
-            </p>
+            <p className="font-semibold">Benefits of the Balanced Meal Plan:</p><br/>
+            <div>
+              <ul className="font-semibold list-disc list-inside">
+              <li title="The meal plan includes a variety of nutrient-dense foods, 
+              providing essential vitamins, minerals, 
+              and antioxidants for overall health.">Nutrient-Rich Foods</li><br/>
+              <li title="Each meal incorporates a mix of carbohydrates, proteins,
+               and healthy fats, promoting a balanced and satisfying diet.">Balanced Macronutrients</li><br/>
+              <li title="Whole grains, fruits, and vegetables contribute dietary fiber,
+               supporting digestive health and regular bowel movements.">Fiber for Digestive Health</li><br/>
+              <li title="Lean protein sources, such as chicken, salmon,
+               and eggs, support muscle maintenance and repair.">Lean Protein for Muscle Maintenance</li><br/>
+              <li title="Inclusion of sources like avocado and olive oil
+               provides heart-healthy monounsaturated fats.">Healthy Fats for Heart Health</li><br/>
+              <li title="The meal plan offers a moderate caloric intake suitable for maintaining
+               a normal BMI without excessive caloric surplus or deficit.">Moderate Caloric Intake</li><br/>
+              </ul>
+              <p className="font-semibold">Benefits of Exercise Suggestions:</p><br/>
+              <ul className="font-semibold list-disc list-inside">
+                <li title="Regular cardiovascular exercise improves heart health, 
+                enhances circulation, and helps maintain overall cardiovascular fitness.">Cardiovascular Health</li><br/>
+                <li title="Strength training exercises preserve muscle mass, support joint health,
+                 and contribute to overall strength and function.">Strength and Muscle Maintenance</li><br/>
+                <li title="Activities like yoga and Pilates enhance
+                 flexibility, balance, and mobility">Flexibility and Balance</li><br/>
+                <li title="Exercise is linked to improved mood, reduced stress, 
+                and enhanced cognitive function, contributing to mental well-being.">Mental Well-being</li><br/>
+                <li title="Consistent physical activity helps in weight maintenance by
+                 burning calories and supporting a healthy metabolism.">Weight Maintenance</li><br/>
+                <li title="Weight-bearing and resistance exercises promote
+                 bone health, reducing the risk of osteoporosis.">Bone Health</li><br/>
+                <li title="Regular exercise is associated with improved sleep quality,
+                 contributing to overall health and well-being.">Improved Sleep</li><br/>
+                <li title="Engaging in group fitness activities or classes provide opportunities for
+                 social interaction, fostering a sense of community and support.">Social Connection</li><br/>
+              </ul>
+            </div>
           </div>
         </div>
         <div>
@@ -256,10 +323,44 @@ const Result = () => {
           </div>
           <div className="bg-black rounded-lg shadow-md p-6 custom1 mt-4 mr-6">
             <p className="text-lg font-semibold mb-3">Benefits</p>
-            <p>
-              Consult a healthcare professional for personalized advice on
-              weight management and lifestyle changes.
-            </p>
+            <p className="font-semibold">Benefits of the Balanced Meal Plan:</p><br/>
+            <div>
+              <ul className="font-semibold list-disc list-inside">
+              <li title="The meal plan offers a balanced caloric intake, 
+              providing enough energy to support daily activities without
+               excess calories that may contribute to weight gain.">Caloric Control</li><br/>
+              <li title="The plan includes nutrient-dense foods, 
+              offering essential vitamins, minerals, and antioxidants
+               for overall health.">Nutrient-Dense Foods</li><br/>
+              <li title="Each meal incorporates a mix of carbohydrates, proteins,
+               and healthy fats, promoting a balanced and satisfying diet.">Balanced Macronutrients</li><br/>
+              <li title="Whole grains, fruits, and vegetables contribute dietary fiber,
+               promoting feelings of fullness and aiding in weight management.">Fiber for Satiety</li><br/>
+              <li title="Protein sources like chicken, salmon, and Greek yogurt
+               support muscle maintenance and help with satiety.">Lean Proteins for Muscle Maintenance</li><br/>
+              <li title="Inclusion of sources like nuts, olive oil, and avocado
+               provides healthy fats that contribute to satiety and overall well-being.">Healthy Fats for Satiety</li><br/>
+              <li title="The meal plan encourages mindful eating
+               and portion control, preventing overeating.">Portion Control</li><br/>
+              </ul>
+              <p className="font-semibold">Benefits of Exercise Suggestions:</p><br/>
+              <ul className="font-semibold list-disc list-inside">
+                <li title="Cardiovascular exercise and strength training contribute
+                 to calorie burn, aiding in weight management.">Calorie Burn and Weight Management</li><br/>
+                <li title="Regular aerobic exercise improves cardiovascular health,
+                 reducing the risk of heart disease.">Cardiovascular Health</li><br/>
+                <li title="Strength training exercises help maintain and tone muscle mass,
+                 contributing to overall body composition.">Strength and Muscle Toning</li><br/>
+                <li title="Both cardiovascular and strength training exercises
+                 can boost metabolism, supporting weight management.">Improved Metabolism</li><br/>
+                <li title="Exercise is associated with improved mood,
+                 reduced stress, and enhanced mental well-being.">Enhanced Mood and Mental Well-being</li><br/>
+                <li title="Regular physical activity contributes to
+                 increased energy levels and overall vitality.">Increased Energy Levels</li><br/>
+                <li title="Activities like yoga and Pilates improve flexibility and balance,
+                 contributing to overall functional fitness.">Enhanced Flexibility and Balance</li><br/>
+              </ul>
+            </div>
           </div>
         </div>
         <div>
